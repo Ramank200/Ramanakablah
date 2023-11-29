@@ -15,4 +15,5 @@ jobs:
       - name: devcard
         uses: dailydotdev/action-devcard@2.0.4
         with:
-          devcard_id: b25bdde6b0484bafb5994ce0471d5c7f   
+        
+          devcard_id: ${{ secrets.DEVCARD_ID }}  
